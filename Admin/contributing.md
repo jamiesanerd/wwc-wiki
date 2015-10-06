@@ -12,12 +12,18 @@ git remote add wiki git@github.com:jamiesanerd/wwc-wiki.wiki.git
 
 ### Deploying to the wiki
 
-When you've added to the `master` branch, you can push it to the wiki using:
+Before you add to the `master` branch first pull to see if there are any changes made remotely:
+
+```bash
+git pull wiki master
+```
+
+Then you can push it to the wiki using:
 
 ```bash
 git push wiki master
 ```
 
-*Only the master branch should be pushed to the `wiki` repository, to make sure that experimental changes don't affect the existing wiki!*
+_Only the master branch should be pushed to the `wiki` repository, to make sure that experimental changes don't affect the existing wiki!_
 
 For more information use these docs: https://help.github.com/articles/adding-and-editing-wiki-pages-locally/
