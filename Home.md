@@ -1,5 +1,5 @@
 Welcome to Women Who Code DC's wiki!
 
-Contributing
+## Contributing
 
 To add to the wiki, check out the [[Contributing]] guide.
