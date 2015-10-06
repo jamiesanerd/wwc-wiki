@@ -19,3 +19,5 @@ git push wiki master
 ```
 
 *Only the master branch should be pushed to the `wiki` repository, to make sure that experimental changes don't affect the existing wiki!*
+
+For more information use these docs: https://help.github.com/articles/adding-and-editing-wiki-pages-locally/
